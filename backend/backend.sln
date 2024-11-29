@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{E28096A5-9506-4C2E-86B4-3359F379EE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{54B0B1D2-CC83-4DAA-8A63-665223651192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIClient", "APIClient\APIClient.csproj", "{BCD70342-D0F9-4E05-8AB1-C7379B92E08E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E28096A5-9506-4C2E-86B4-3359F379EE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28096A5-9506-4C2E-86B4-3359F379EE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28096A5-9506-4C2E-86B4-3359F379EE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28096A5-9506-4C2E-86B4-3359F379EE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B0B1D2-CC83-4DAA-8A63-665223651192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B0B1D2-CC83-4DAA-8A63-665223651192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B0B1D2-CC83-4DAA-8A63-665223651192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B0B1D2-CC83-4DAA-8A63-665223651192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD70342-D0F9-4E05-8AB1-C7379B92E08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD70342-D0F9-4E05-8AB1-C7379B92E08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD70342-D0F9-4E05-8AB1-C7379B92E08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD70342-D0F9-4E05-8AB1-C7379B92E08E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63FB6C37-FDAB-4E39-B1C4-E919A39DCE3A}
+	EndGlobalSection
+EndGlobal
