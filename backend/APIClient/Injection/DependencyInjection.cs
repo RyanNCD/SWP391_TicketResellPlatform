@@ -23,6 +23,7 @@ namespace APIClient.Injection
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 
             //GENERIC REPOSITORY
@@ -36,6 +37,7 @@ namespace APIClient.Injection
             services.AddScoped<IGenericRepository<OrderItem>, GenericRepository<OrderItem>>();
             //SERVICE
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ICategoryServices, CategoryServices>();
 
 
             //UNIT OF WORK
