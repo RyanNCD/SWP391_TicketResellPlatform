@@ -12,3 +12,4 @@ C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\Repository\obj\Debug\n
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\Repository\obj\Debug\net8.0\Repository.sourcelink.json

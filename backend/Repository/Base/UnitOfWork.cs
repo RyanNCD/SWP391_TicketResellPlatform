@@ -1,5 +1,6 @@
 ﻿using Repository.Interfaces;
 using Repository.Models;
+using Repository.Repositories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,17 +20,20 @@ namespace Repository.Base
         public UnitOfWork(
             SWP391TicketResellPlatformContext context,
             IUserRepository userRepository,
-            IUserRoleRepository roleRepository)
+            IUserRoleRepository roleRepository,
+            ICategoryRepository categoryRepository)
         {
             _context = context;
             UserRepository = userRepository;
             UserRoleRepository = roleRepository;
-
+            CategoryRepository = categoryRepository;
         }
 
         public IUserRepository UserRepository { get; }
 
         public IUserRoleRepository UserRoleRepository { get; }
+
+        public ICategoryRepository CategoryRepository { get; }
 
         public void Save()
         {

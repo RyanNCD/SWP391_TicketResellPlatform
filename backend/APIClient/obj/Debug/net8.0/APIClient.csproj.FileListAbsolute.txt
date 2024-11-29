@@ -74,3 +74,4 @@ C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\APIClient\obj\Debug\ne
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\APIClient\obj\Debug\net8.0\APIClient.pdb
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\APIClient\obj\Debug\net8.0\APIClient.genruntimeconfig.cache
 C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\APIClient\obj\Debug\net8.0\ref\APIClient.dll
+C:\Users\Acer\Desktop\SWP391_TicketResellPlatform\backend\APIClient\obj\Debug\net8.0\APIClient.sourcelink.json

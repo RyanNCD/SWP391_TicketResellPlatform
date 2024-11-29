@@ -10,7 +10,7 @@ namespace Repository.Interfaces
     {
         IUserRepository UserRepository { get; }
         IUserRoleRepository UserRoleRepository { get; }
-
+        ICategoryRepository CategoryRepository { get; }
         void Save();
         Task<int> SaveChangesAsync();
     }
