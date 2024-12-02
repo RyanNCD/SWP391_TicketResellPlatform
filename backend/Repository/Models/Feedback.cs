@@ -23,9 +23,9 @@ public partial class Feedback
 
     public DateTime? ModifiedDate { get; set; }
 
-    public virtual Member Buyer { get; set; }
+    public virtual User Buyer { get; set; }
 
-    public virtual Member Seller { get; set; }
+    public virtual User Seller { get; set; }
 
     public virtual Ticket Ticket { get; set; }
 }

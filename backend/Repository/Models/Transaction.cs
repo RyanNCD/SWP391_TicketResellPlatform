@@ -9,6 +9,8 @@ public partial class Transaction
 {
     public int TransactionId { get; set; }
 
+    public int? TicketId { get; set; }
+
     public int? OrderId { get; set; }
 
     public DateTime? TransactionDate { get; set; }
@@ -29,5 +31,5 @@ public partial class Transaction
 
     public virtual Order Order { get; set; }
 
-    public virtual ICollection<TransactionProcess> TransactionProcesses { get; set; } = new List<TransactionProcess>();
+    public virtual Ticket Ticket { get; set; }
 }

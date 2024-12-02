@@ -12,8 +12,8 @@ namespace Repository.Repositories
 {
     public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
     {
-        private readonly SWP391TicketResellPlatformContext _context;
-        public CategoryRepository(SWP391TicketResellPlatformContext context) : base(context)
+        private readonly TicketResellPlatformContext _context;
+        public CategoryRepository(TicketResellPlatformContext context) : base(context)
         {
             _context = context;
         }

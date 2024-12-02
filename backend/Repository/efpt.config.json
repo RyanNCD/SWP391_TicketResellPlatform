@@ -1,6 +1,6 @@
 ﻿{
    "CodeGenerationMode": 4,
-   "ContextClassName": "SWP391TicketResellPlatformContext",
+   "ContextClassName": "TicketResellPlatformContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
@@ -15,19 +15,11 @@
    "T4TemplatePath": null,
    "Tables": [
       {
-         "Name": "[dbo].[Business]",
-         "ObjectType": 0
-      },
-      {
          "Name": "[dbo].[Category]",
          "ObjectType": 0
       },
       {
          "Name": "[dbo].[Feedback]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Member]",
          "ObjectType": 0
       },
       {
@@ -39,23 +31,11 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[ServicePackage]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Staff]",
-         "ObjectType": 0
-      },
-      {
          "Name": "[dbo].[Ticket]",
          "ObjectType": 0
       },
       {
          "Name": "[dbo].[Transaction]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[TransactionProcess]",
          "ObjectType": 0
       },
       {
@@ -67,11 +47,11 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[VerifyTicket]",
+         "Name": "[dbo].[Wallet]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Wallet]",
+         "Name": "[dbo].[WithdrawalRequest]",
          "ObjectType": 0
       }
    ],

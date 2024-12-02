@@ -12,8 +12,8 @@ namespace Repository.Repositories
 {
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        private readonly SWP391TicketResellPlatformContext _context;
-        public UserRepository(SWP391TicketResellPlatformContext context) : base(context)
+        private readonly TicketResellPlatformContext _context;
+        public UserRepository(TicketResellPlatformContext context) : base(context)
         {
             _context = context;
         }

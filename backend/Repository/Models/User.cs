@@ -21,19 +21,37 @@ public partial class User
 
     public string ImageUrl { get; set; }
 
+    public decimal? AverageRating { get; set; }
+
+    public int? RatingCount { get; set; }
+
+    public DateTime? MembershipDate { get; set; }
+
+    public string MembershipStatus { get; set; }
+
+    public DateTime? ModifiedDate { get; set; }
+
+    public string BankName { get; set; }
+
+    public string BankAccount { get; set; }
+
     public int? RoleId { get; set; }
 
     public int? WalletId { get; set; }
 
-    public DateTime? ModifiedDate { get; set; }
+    public virtual ICollection<Feedback> FeedbackBuyers { get; set; } = new List<Feedback>();
 
-    public virtual Business Business { get; set; }
+    public virtual ICollection<Feedback> FeedbackSellers { get; set; } = new List<Feedback>();
 
-    public virtual Member Member { get; set; }
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
     public virtual UserRole Role { get; set; }
 
-    public virtual Staff Staff { get; set; }
+    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
 
     public virtual Wallet Wallet { get; set; }
+
+    public virtual ICollection<Wallet> Wallets { get; set; } = new List<Wallet>();
+
+    public virtual ICollection<WithdrawalRequest> WithdrawalRequests { get; set; } = new List<WithdrawalRequest>();
 }

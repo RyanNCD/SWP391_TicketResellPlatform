@@ -14,7 +14,7 @@ namespace APIClient.Injection
         public static IServiceCollection ServicesInjection(this IServiceCollection services, IConfiguration configuration)
         {
             //CONNECT TO DATABASE
-            services.AddDbContext<SWP391TicketResellPlatformContext>(options =>
+            services.AddDbContext<TicketResellPlatformContext>(options =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
@@ -31,7 +31,6 @@ namespace APIClient.Injection
             services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
             services.AddScoped<IGenericRepository<UserRole>, GenericRepository<UserRole>>();
             services.AddScoped<IGenericRepository<Ticket>, GenericRepository<Ticket>>();
-            services.AddScoped<IGenericRepository<Member>, GenericRepository<Member>>();
             services.AddScoped<IGenericRepository<Category>, GenericRepository<Category>>();
             services.AddScoped<IGenericRepository<Order>, GenericRepository<Order>>();
             services.AddScoped<IGenericRepository<OrderItem>, GenericRepository<OrderItem>>();

@@ -19,9 +19,9 @@ public partial class Order
 
     public DateTime? ModifiedDate { get; set; }
 
-    public virtual Member Buyer { get; set; }
+    public virtual User Buyer { get; set; }
 
     public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
-    public virtual Transaction Transaction { get; set; }
+    public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }

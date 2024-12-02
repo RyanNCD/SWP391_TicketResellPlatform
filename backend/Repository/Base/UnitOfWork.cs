@@ -12,13 +12,13 @@ namespace Repository.Base
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        private SWP391TicketResellPlatformContext _context;
+        private TicketResellPlatformContext _context;
         private GenericRepository<Category> _categoryRepository;
 
         //private readonly IWalletRepository _walletRepository;
 
         public UnitOfWork(
-            SWP391TicketResellPlatformContext context,
+            TicketResellPlatformContext context,
             IUserRepository userRepository,
             IUserRoleRepository roleRepository,
             ICategoryRepository categoryRepository)
