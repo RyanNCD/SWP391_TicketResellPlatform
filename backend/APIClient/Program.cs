@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.ServicesInjection(builder.Configuration);
-builder.Services.AddDbContext<SWP391TicketResellPlatformContext>();
+builder.Services.AddDbContext<TicketResellPlatformContext>();
 
 builder.Services.AddSwaggerGen(config =>
 {

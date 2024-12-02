@@ -16,4 +16,6 @@ public partial class Wallet
     public DateTime? ModifiedDate { get; set; }
 
     public virtual User User { get; set; }
+
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

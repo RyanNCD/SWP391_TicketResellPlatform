@@ -37,15 +37,13 @@ public partial class Ticket
 
     public DateTime? ModifiedDate { get; set; }
 
-    public virtual Staff ApprovedByNavigation { get; set; }
-
     public virtual Category Category { get; set; }
 
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
 
     public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
-    public virtual Member Seller { get; set; }
+    public virtual User Seller { get; set; }
 
-    public virtual ICollection<TransactionProcess> TransactionProcesses { get; set; } = new List<TransactionProcess>();
+    public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }

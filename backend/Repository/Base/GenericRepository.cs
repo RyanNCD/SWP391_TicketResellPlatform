@@ -12,10 +12,10 @@ namespace Repository.Base
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        protected SWP391TicketResellPlatformContext _context;
+        protected TicketResellPlatformContext _context;
         protected DbSet<TEntity> _dbSet;
 
-        public GenericRepository(SWP391TicketResellPlatformContext context)
+        public GenericRepository(TicketResellPlatformContext context)
         {
             _context = context;
             _dbSet = context.Set<TEntity>();

@@ -51,7 +51,7 @@ namespace Service.Services
             var user = _mapper.Map<User>(registerDto);
             user.PasswordHash = _passwordHasher.HashPassword(user, registerDto.Password);
 
-            var userRole = await _unitOfWork.UserRoleRepository.GetAsync(r => r.RoleName == "buyer");
+            var userRole = await _unitOfWork.UserRoleRepository.GetAsync(r => r.RoleName == "Buyer");
             if (userRole == null)
             {
                 throw new Exception("Default role not found.");

@@ -12,7 +12,7 @@ namespace Repository.Repositories
 {
     public class UserRoleRepository : GenericRepository<UserRole>, IUserRoleRepository
     {
-        public UserRoleRepository(SWP391TicketResellPlatformContext context) : base(context)
+        public UserRoleRepository(TicketResellPlatformContext context) : base(context)
         {
         }
         public async Task<UserRole> GetByNameAsync(string roleName)
